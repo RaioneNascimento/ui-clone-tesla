@@ -1,4 +1,4 @@
-## happy
+## ui-clone-tesla
 
 <div align="center">
 	<img width="500px" src="./public/mkup/tesla-clone-logo.png" alt="Tesla UI Clone Banner">
