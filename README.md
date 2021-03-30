@@ -18,25 +18,25 @@
     <img alt="CSS" src="https://img.shields.io/badge/CSS%20-USED-%23ff1b22">
   </a>
 
-  <!-- JavaScript -->
-  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">
-    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-USED-%23ff1b22">
+  <!-- TypeScript -->
+  <a href="https://www.typescriptlang.org/" target="_blank">
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript%20-USED-%23ff1b22">
   </a>
 
-  <!-- Node.Js -->
+  <!-- Node.Js
   <a href="https://nodejs.org/en/" target="_blank">
     <img alt="NodeJs" src="https://img.shields.io/badge/NodeJS%20-USED-%23ff1b22">
-  </a>
+  </a> -->
 
   <!-- ReactJS -->
   <a href="https://nodejs.org/en/" target="_blank">
     <img alt="NodeJs" src="https://img.shields.io/badge/ReactJS%20-USED-%23ff1b22">
   </a>
 
-  <!-- SQLite -->
+  <!-- SQLite
   <a href="https://www.sqlite.org/docs.html" target="_blank">
     <img alt="SQLite" src="https://img.shields.io/badge/SQLite%20-USED-%23ff1b22">
-  </a>
+  </a> -->
 
   <!-- RocketSeat -->
   <a href="https://rocketseat.com.br" target="_blank">
