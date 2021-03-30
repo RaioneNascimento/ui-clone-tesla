@@ -58,14 +58,17 @@ UI Clone é uma prática usada para recriar diversas homepages famosas. Nessa ap
 ## 🚀 Introdução 
 
 <p align=justify> 
-  No Ui Clone #14 recriamos juntamente com o Instrutor Guilherme Rodz uma das homepages mais famosas, sim ela mesma, lhes apresento o UI da <a href="https://www.tesla.com/"><b>Tesla</b></a> .
+  No Ui Clone #14 recriamos juntamente com o Instrutor Guilherme Rodz uma das homepages mais famosas, sim ela mesma, lhes apresento o UI da <a href="https://www.tesla.com/" target="_blank"><b>Tesla</b></a> .
 </p>
 
 <br>
 
 ## 👨🏽‍💻 Aplicação Deployed
 
-Clique aqui para acessar a minha aplicação: <a href="https://ui-clone-tesla.raionenascimento.com.br" target="_blank"><b>ui-clone-tesla</b></a>.
+Clique aqui: 
+  <a href="https://ui-clone-tesla.raionenascimento.com.br" target="_blank">
+    <img alt="UI Clone Tesla" src="https://img.shields.io/badge/UI%20Clone%20Tesla-%23ff1b22">
+  </a>
 
 <br>
 
