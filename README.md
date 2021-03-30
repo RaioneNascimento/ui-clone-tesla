@@ -47,12 +47,12 @@
 
 <h3 align=center>
 
-UI Clone é uma prática usada para recriar diversas homepages famosas. Nessa aplicação utilizamos as tecnologias **TypeScript** e **ReactNative**.
+UI Clone é uma prática usada para recriar diversas homepages famosas. Nessa aplicação utilizamos as tecnologias **TypeScript** e **React.js**.
 
 </h3>
 
 <h1 align=center>
-  <img width="1000px"src="./public/mkup/tela-mobile.gif" alt="Tela Web-Mobile"/>
+  <img width="1000px"src="./public/mkup/tela-mobile.gif" alt="Tela Web"/>
 </h1>
 
 ## 🚀 Introdução 
@@ -69,7 +69,7 @@ Clique aqui para acessar a minha aplicação: **[ui-clone-tesla](https://ui-clon
 
 <br>
 
-### 📑 **Web** - ***TypeScript e ReactJS***
+### 📑 **Web** - ***TypeScript e React.js***
 
   - **[React.js](https://pt-br.reactjs.org/)**
   - **[TypeScript](https://www.typescriptlang.org/)**
