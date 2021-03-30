@@ -29,8 +29,8 @@
   </a> -->
 
   <!-- ReactJS -->
-  <a href="https://nodejs.org/en/" target="_blank">
-    <img alt="NodeJs" src="https://img.shields.io/badge/ReactJS%20-USED-%23ff1b22">
+  <a href="https://pt-br.reactjs.org/" target="_blank">
+    <img alt="React.js" src="https://img.shields.io/badge/ReactJS%20-USED-%23ff1b22">
   </a>
 
   <!-- SQLite
