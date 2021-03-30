@@ -9,17 +9,17 @@
 <div align="center">
 
   <!-- HTML -->
-  <a href="https://www.w3schools.com/tags/tag_doctype.asp" target="_blank">
+  <a href="http://www.w3schools.com/tags/tag_doctype.asp" target="_blank">
     <img alt="HTML" src="https://img.shields.io/badge/HTML5%20-USED-%23ff1b22">
   </a>
 
   <!-- CSS -->
-  <a href="https://devdocs.io/css/" target="_blank">
+  <a href="http://devdocs.io/css/" target="_blank">
     <img alt="CSS" src="https://img.shields.io/badge/CSS%20-USED-%23ff1b22">
   </a>
 
   <!-- TypeScript -->
-  <a href="https://www.typescriptlang.org/" target="_blank">
+  <a href="http://www.typescriptlang.org/" target="_blank">
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript%20-USED-%23ff1b22">
   </a>
 
@@ -29,7 +29,7 @@
   </a> -->
 
   <!-- ReactJS -->
-  <a href="https://pt-br.reactjs.org/" target="_blank">
+  <a href="http://pt-br.reactjs.org/" target="_blank">
     <img alt="React.js" src="https://img.shields.io/badge/ReactJS%20-USED-%23ff1b22">
   </a>
 
@@ -39,7 +39,7 @@
   </a> -->
 
   <!-- RocketSeat -->
-  <a href="https://rocketseat.com.br" target="_blank">
+  <a href="http://rocketseat.com.br" target="_blank">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
   </a>
 
@@ -66,7 +66,7 @@ UI Clone é uma prática usada para recriar diversas homepages famosas. Nessa ap
 ## 👨🏽‍💻 Aplicação Deployed
 
 Clique aqui: 
-  <a href="https://ui-clone-tesla.raionenascimento.com.br" target="_blank">
+  <a href="http://ui-clone-tesla.raionenascimento.com.br" target="_blank">
     <img alt="UI Clone Tesla" src="https://img.shields.io/badge/UI%20Clone%20Tesla-%23ff1b22">
   </a>
 
@@ -74,18 +74,18 @@ Clique aqui:
 
 ### 📑 **Web** - ***TypeScript e React.js***
 
-  - **[React.js](https://pt-br.reactjs.org/)**
-  - **[TypeScript](https://www.typescriptlang.org/)**
+  - **[React.js](http://pt-br.reactjs.org/)**
+  - **[TypeScript](http://www.typescriptlang.org/)**
 
-  - **[React-Router-DOM](https://reactrouter.com/web/guides/quick-start)**
-  - **[Styled-Components](https://styled-components.com/)**
+  - **[React-Router-DOM](http://reactrouter.com/web/guides/quick-start)**
+  - **[Styled-Components](http://styled-components.com/)**
 
 <br>
 
 ### 🧰  **Utilitários**
 
-  - Editor: **[Visual Studio Code](https://code.visualstudio.com/download)** 
-  - Fontes: **[Roboto](https://fonts.google.com/specimen/Roboto)**
+  - Editor: **[Visual Studio Code](http://code.visualstudio.com/download)** 
+  - Fontes: **[Roboto](http://fonts.google.com/specimen/Roboto)**
 
 <br>
 
