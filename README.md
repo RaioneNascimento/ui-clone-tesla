@@ -153,7 +153,7 @@ Fica aqui o agradecimento ao Diego Fernandes e Mayk Brito por sempre disponibili
 </p>
 
 <p align=center>
-  <b>Gostou do projeto?</b> Me ajude deixando uma estrela para me insentivar ainda mais nos estudos 🤓
+  <b>Gostou do projeto?</b> Me ajude deixando uma estrela para me incentivar ainda mais nos estudos 🤓
 </p>
 
 `made with 💜 by raionedeveloper © 2020`
