@@ -1,22 +1,24 @@
-import { Container, Heading, Buttons } from './styles';
+import { TitleContainer } from '../TitleContainer';
+import { Container, Content } from './styles';
 
 interface Props {
-  label: string
-  description: string
+  type: string;
+  label: string;
+  description: string;
 }
 
-const DefaultOverlayContent: React.FC<Props> = ({ label, description }) => {
+const DefaultOverlayContent: React.FC<Props> = ({ type, label, description }) => {
   return (
     <Container>
-      <Heading>
-        <h1>{label}</h1>
-        <h2>{description}</h2>
-      </Heading>
+      <TitleContainer
+        title={label}
+        subtitle={description}
+        activeContainer
+        titleContainer={label}
+      />
 
-      <Buttons>
-        <button>Custon Order</button>
-        <button className="white">Existing Inventory</button>
-      </Buttons>
+      {type && <Content>{type}</Content>}
+
     </Container>
   );
 };

@@ -19,7 +19,7 @@ export const Header = styled.header`
   align-items: center;
   justify-content: space-between;
 
-  padding: 0 20px;
+  padding: 40px;
   min-height: 52px;
 `
 export const Logo = styled(LogoSVG)`
@@ -56,7 +56,7 @@ export const Footer = styled(motion.footer)`
 
       a {
         text-decoration: none;
-        color: #393C41;
+        color: ${({ theme }) => theme.colors.primary};
 
         &:hover {
           color: #000;

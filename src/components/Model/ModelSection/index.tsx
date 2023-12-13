@@ -4,15 +4,15 @@ import { Container } from './styles';
 import useModel from '../useModel'
 
 interface Props extends React.HTMLAttributes<HTMLDivElement> {
-  modelName: string
-  overlayNode: React.ReactNode
+  modelName: string;
+  overlayNode: React.ReactNode;
 }
 
-const ModelSection: React.FC<Props> = ({ 
-  modelName, 
-  overlayNode, 
-  children, 
-  ...props 
+const ModelSection: React.FC<Props> = ({
+  modelName,
+  overlayNode,
+  children,
+  ...props
 }) => {
   const { registerModel } = useModel(modelName)
 
@@ -27,7 +27,7 @@ const ModelSection: React.FC<Props> = ({
   return (
     <Container ref={sectionRef} {...props}>
       {children}
-    </Container> 
+    </Container>
   )
 }
 

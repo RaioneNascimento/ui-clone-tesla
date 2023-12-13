@@ -1,7 +1,7 @@
-import React from 'react';
 import { useTransform } from 'framer-motion';
+import React from 'react';
 import useWrapperScroll from '../Model/useWrapperScroll';
-import { Container, Header, Logo, Burger, Footer } from './styles';
+import { Burger, Container, Footer, Header, Logo } from './styles';
 
 const UniqueOverlay: React.FC = () => {
   const { scrollYProgress } = useWrapperScroll()
@@ -12,19 +12,16 @@ const UniqueOverlay: React.FC = () => {
     <Container>
       <Header>
         <Logo />
+        
+        {/* <HeaderOptions /> */}
+        
         <Burger />
       </Header>
 
       <Footer style={{opacity}}>
         <ul>
           <li>
-            <a href="/#">UI Clone</a>
-          </li>
-          <li>
-            <a href="/#">made with 💜</a>
-          </li>
-          <li>
-            <a href="/#">by Raione Nascimento</a>
+            <a href="/#">© Copyright 2023 Spartans.</a>
           </li>
         </ul>
       </Footer>

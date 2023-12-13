@@ -1,45 +1,43 @@
 import React from 'react';
 
-import { ModelSection, ModelsWrapper } from '../Model'
 import DefaultOverlayContent from '../DefaultOverlayContent';
-import UniqueOverlay from '../UniqueOverlay';
+import { ModelSection, ModelsWrapper } from '../Model';
 
-import { Container, Spacer } from './styles';
+import UniqueOverlay from '../UniqueOverlay';
+import theme from '../../styles/theme/default';
 
 const Page: React.FC = () => {
   return (
-    <Container>
+    <>
+
       <ModelsWrapper>
-        <div>
-          {[
-            'Model S',
-            'Model Y',
-            'Model 3',
-            'Model X',
-            'Lowest Cost Solar Panels in America',
-            'Solar for New Roofs',
-            'Accessories'
-          ].map(modelName => (
+        {[
+          {
+            id: "home",
+            title: 'Clan Spartans',
+            subtitle: 'A coragem alimenta as guerras, mas é o medo que as faz nascer',
+          },
+          { id: "history", title: 'Historia', subtitle: '' },
+          { id: "goal", title: 'Objetivo', subtitle: '' },
+          { id: "recrut", title: 'Recrutamento', subtitle: '' },
+        ].map((modelName, index) => (
+          <div key={index} style={{ background: theme.colors.background }}>
             <ModelSection
-              key={modelName}
-              className="colored"
-              modelName={modelName}
-              overlayNode={
-                <DefaultOverlayContent
-                  label={modelName}
-                  description="Order Online for Delivery"
-                />
-              }
-            />  
-          ))}
-        </div>
+              key={index}
+              className={`colored-${index + 1}`}
+              modelName={modelName.title}
+              overlayNode={<DefaultOverlayContent
+                type={modelName.id}
+                label={modelName.title}
+                description={modelName.subtitle} />} />
+          </div>
+        ))}
 
-        <Spacer />
+      <UniqueOverlay />
 
-        <UniqueOverlay />
       </ModelsWrapper>
-    </Container>
-  );
+    </>
+  )
 };
 
 export default Page;

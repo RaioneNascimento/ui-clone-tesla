@@ -1,17 +1,26 @@
-import React from 'react'
-
-import Page from './components/Page'
-
-import { GlobalStyles } from './styles/GlobalStyles'
+// import { Loading } from '@components/Loading';
+// import Page from '@components/Page';
+import { useEffect, useState } from 'react';
+import { Loading } from './components/Loading';
+import Page from './components/Page';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+
   return (
     <>
-      <Page />
-
-      <GlobalStyles />
+      {loading ? <Loading /> : <Page />}
     </>
-  )
+  );
 }
 
 export default App

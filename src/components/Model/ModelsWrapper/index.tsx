@@ -1,10 +1,14 @@
-import React, { useCallback, useRef, useState } from 'react'
+import React, { ReactNode, useCallback, useRef, useState } from 'react'
 import ModelsContext, { CarModel } from '../ModelsContext'
 import ModelOverlay from '../ModelOverlay/'
 
 import { Container, OverlaysRoot } from './styles'
 
-const ModelsWrapper: React.FC = ({ children }) => {
+interface ModelsWrapperProps {
+  children: ReactNode;
+}
+
+const ModelsWrapper: React.FC<ModelsWrapperProps> = ({ children }) => {
   const wrapperRef = useRef<HTMLDivElement>(null)
 
   const [registeredModels, setRegisteredModels] = useState<CarModel[]>([])
@@ -45,7 +49,7 @@ const ModelsWrapper: React.FC = ({ children }) => {
 
         {children}
       </Container>
-    </ModelsContext.Provider>    
+    </ModelsContext.Provider>
   );
 };
 

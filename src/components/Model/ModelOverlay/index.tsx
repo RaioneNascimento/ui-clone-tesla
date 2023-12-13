@@ -8,6 +8,7 @@ import { Container } from './styles'
 
 interface Props {
   model: CarModel
+  children: React.ReactNode
 }
 
 type SectionDimensions = Pick<HTMLDivElement, 'offsetTop' | 'offsetHeight'>
