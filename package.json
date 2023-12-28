@@ -9,6 +9,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@typescript-eslint/typescript-estree": "^6.16.0",
     "framer-motion": "^3.10.3",
     "react": "^18.3.0-canary-5bcade5fc-20231208",
     "react-dom": "^18.3.0-canary-5bcade5fc-20231208",
